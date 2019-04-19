@@ -1,6 +1,9 @@
 # pgit
 Python wrapper of git for sub-repos
 
+#### Note:
+Seems unhappy with old git `git version 2.6.4 (Apple Git-63)` - try updating
+
 ## What
 Maintains a list of secondary git trees in a file named .subgit, which typicially is checked in with the parent project.
 This allows locking in a specific checkin of each dependancy. As subtrees are updated (whether by tracking an upstream or new development) the file may be refreshed and checked in.
